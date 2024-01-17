@@ -42,7 +42,7 @@ function newQuote() {
 
 // Get Quotes From API
 async function getQuotes() {
-    loading();
+    showLoadingSpinner();
     const apiUrl = 'https://jacintodesign.github.io/quotes-api/data/quotes.json';
     try {
         const response = await fetch(apiUrl);
