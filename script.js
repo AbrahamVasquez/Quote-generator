@@ -8,7 +8,7 @@ const loader = document.getElementById('loader');
 let apiQuotes = [];
 
 function showLoadingSpinner() {
-    loading.hidden = false;
+    showLoadingSpinner.hidden = false;
     quoteContainer.hidden = true;
 }
 
